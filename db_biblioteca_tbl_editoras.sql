@@ -25,7 +25,8 @@ DROP TABLE IF EXISTS `tbl_editoras`;
 CREATE TABLE `tbl_editoras` (
   `ID_Editora` smallint NOT NULL AUTO_INCREMENT,
   `Nome_Editora` varchar(50) NOT NULL,
-  PRIMARY KEY (`ID_Editora`)
+  PRIMARY KEY (`ID_Editora`),
+  KEY `idx_editora` (`Nome_Editora`)
 ) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -35,7 +36,7 @@ CREATE TABLE `tbl_editoras` (
 
 LOCK TABLES `tbl_editoras` WRITE;
 /*!40000 ALTER TABLE `tbl_editoras` DISABLE KEYS */;
-INSERT INTO `tbl_editoras` VALUES (1,'Editora Dialética'),(2,' Editora Inovar'),(3,'Editora Appris'),(4,'Editora Científica Digital'),(5,'Editora Atena'),(6,'Paco Editorial'),(7,'Editora CRV'),(8,'Editora Juruã'),(9,'Editora Saraiva Educação'),(10,'Editora Vozes');
+INSERT INTO `tbl_editoras` VALUES (2,' Editora Inovar'),(3,'Editora Appris'),(5,'Editora Atena'),(4,'Editora Científica Digital'),(7,'Editora CRV'),(1,'Editora Dialética'),(8,'Editora Juruã'),(9,'Editora Saraiva Educação'),(10,'Editora Vozes'),(6,'Paco Editorial');
 /*!40000 ALTER TABLE `tbl_editoras` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -48,4 +49,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-11-01 10:55:42
+-- Dump completed on 2023-11-06 12:09:29

@@ -36,7 +36,7 @@ CREATE TABLE `tbl_autores` (
 
 LOCK TABLES `tbl_autores` WRITE;
 /*!40000 ALTER TABLE `tbl_autores` DISABLE KEYS */;
-INSERT INTO `tbl_autores` VALUES (1,'William','Shakespeare'),(2,'Mary','Shelley'),(3,'George','Orwell'),(4,'Miguel','Cervantes'),(5,' Chinua','Achebe'),(6,'Toni','Morrison'),(7,'Margaret','Atwood'),(8,'James','Joyce'),(9,'Gustave','Flaubert'),(10,'Luo','Guanzhong');
+INSERT INTO `tbl_autores` VALUES (1,'William','Shakespeare'),(2,'Mare','Shelley'),(3,'George','Orwell'),(4,'Miguel','Cervantes'),(5,' Chinua','Achebe'),(6,'Toni','Morrison'),(7,'Margaret','Atwood'),(8,'James','Joyce'),(9,'Gustave','Flaubert'),(10,'Luo','Guanzhong');
 /*!40000 ALTER TABLE `tbl_autores` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -49,4 +49,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-11-01 10:55:42
+-- Dump completed on 2023-11-06 12:09:29

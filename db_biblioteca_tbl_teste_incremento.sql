@@ -26,7 +26,7 @@ CREATE TABLE `tbl_teste_incremento` (
   `Codigo` smallint NOT NULL AUTO_INCREMENT,
   `Nome` varchar(20) NOT NULL,
   PRIMARY KEY (`Codigo`)
-) ENGINE=InnoDB AUTO_INCREMENT=95 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -35,7 +35,6 @@ CREATE TABLE `tbl_teste_incremento` (
 
 LOCK TABLES `tbl_teste_incremento` WRITE;
 /*!40000 ALTER TABLE `tbl_teste_incremento` DISABLE KEYS */;
-INSERT INTO `tbl_teste_incremento` VALUES (15,'Ana'),(16,'Marcelo'),(17,'Vania'),(18,'Felisberto'),(90,'Renata'),(91,'Rodrigo'),(92,'Livia'),(93,'Felipe'),(94,'Borato');
 /*!40000 ALTER TABLE `tbl_teste_incremento` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -48,4 +47,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-11-01 10:55:42
+-- Dump completed on 2023-11-06 12:09:29
