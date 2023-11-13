@@ -26,7 +26,8 @@ CREATE TABLE `tbl_autores` (
   `ID_Autor` smallint NOT NULL,
   `Nome_autor` varchar(50) NOT NULL,
   `Sobrenome_Autor` varchar(60) NOT NULL,
-  PRIMARY KEY (`ID_Autor`)
+  PRIMARY KEY (`ID_Autor`),
+  KEY `idx_autores` (`Nome_autor`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -49,4 +50,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-11-06 12:09:29
+-- Dump completed on 2023-11-13 12:02:26
